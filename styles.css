@@ -124,30 +124,43 @@ section {
     margin-bottom: 4rem;
 }
 
+/* Ensure the body and html take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #071A22; /* Background color behind the card */
+}
+
 /* Project Card Styling */
 .project-card {
     background-color: #F4F6F5;
-    border: 1px solid #BFCBCA;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative;
-    width: 300px;
-    text-align: left;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1000px;
+    height: 80%;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .project-title {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #071A22;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .project-description {
     color: #003D34;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-bottom: 40px; /* To give space for the button */
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 60px;
 }
 
 .github-link {
@@ -156,11 +169,11 @@ section {
     right: 20px;
     background-color: #055749;
     color: #F4F6F5;
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 .github-link:hover {
