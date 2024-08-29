@@ -123,3 +123,46 @@ a:hover {
 section {
     margin-bottom: 4rem;
 }
+
+/* Project Card Styling */
+.project-card {
+    background-color: #F4F6F5;
+    border: 1px solid #BFCBCA;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 300px;
+    text-align: left;
+}
+
+.project-title {
+    font-size: 1.5em;
+    color: #071A22;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    color: #003D34;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 40px; /* To give space for the button */
+}
+
+.github-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #055749;
+    color: #F4F6F5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.github-link:hover {
+    background-color: #003D34;
+}
