@@ -1,80 +1,114 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
-    color: #F4F6F5;
-    background-color: #071A22;
+    background-color: #F4F6F5; /* Light Gray for background */
+    color: #071A22; /* Dark Navy for text */
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
-nav {
-    background-color: #003D34;
-    padding: 10px;
-    text-align: right;
+/* Header Styling */
+header {
+    background-color: #003D34; /* Dark Green for header background */
+    padding: 1rem;
 }
 
-nav ul {
+header nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-left: 20px;
+header nav ul li {
+    margin: 0 1rem;
 }
 
-nav ul li a {
-    color: #BFCBCA;
+header nav ul li a {
+    color: #F4F6F5; /* Light Gray for header links */
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-header.intro {
-    padding: 50px;
-    background-color: #055749;
-    text-align: left;
+header nav ul li a:hover {
+    color: #BFCBCA; /* Light Green on hover */
 }
 
-header.intro h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-header.intro p {
-    font-size: 18px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-section.bio {
-    padding: 50px;
-    background-color: #071A22;
-}
-
-footer {
-    padding: 20px;
-    background-color: #003D34;
+/* Section Styling */
+.welcome-section, .projects-section, .work-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #BFCBCA; /* Light Green background for sections */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-footer p, footer ul {
-    margin: 10px 0;
+.welcome-section h1, .projects-section h1, .work-section h1 {
+    color: #003D34; /* Dark Green for section titles */
+    margin-bottom: 1rem;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
+.welcome-section p, .projects-section p, .work-section p {
+    color: #071A22; /* Dark Navy for section text */
 }
 
-footer ul li {
-    display: inline;
-    margin: 0 10px;
+/* Footer Styling */
+footer {
+    background-color: #071A22; /* Dark Navy for footer background */
+    color: #F4F6F5; /* Light Gray for footer text */
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
-footer ul li a {
-    color: #BFCBCA;
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #055749; /* Medium Green for footer links */
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #BFCBCA; /* Light Green on hover */
+}
+
+/* Additional Styling */
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #055749; /* Medium Green on hover */
+}
+
+section {
+    margin-bottom: 4rem;
 }
