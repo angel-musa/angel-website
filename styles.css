@@ -229,10 +229,11 @@ body {
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -12px; /* Align dot with the right side of the card */
     background-color: #071A22; /* Dark dot */
     border: 4px solid #BFCBCA; /* Border around the dot */
     top: 15px; /* Adjust vertical position if needed */
+    left: 50%; /* Align the dot to the center */
+    transform: translateX(-50%); /* Center the dot on the timeline line */
     border-radius: 50%;
     z-index: 1;
 }
