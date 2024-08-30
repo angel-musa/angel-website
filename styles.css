@@ -222,7 +222,7 @@ body {
 
 .timeline-entry:nth-child(even) {
     left: 50%; /* Align right */
-    transform: translateX(50%); /* Move content to the right */
+    transform: translateX(10%); /* Move content to the right */
 }
 
 .timeline-dot {
