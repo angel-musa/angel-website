@@ -203,10 +203,15 @@ body {
 }
 
 .timeline-entry {
-    padding: 20px 40px;
-    position: relative;
-    width: 50%;
+    width: 80%; /* Adjust this percentage as needed */
+    margin: 20px auto; /* Center the cards */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
 }
+
 
 .timeline-entry:nth-child(odd) {
     left: 0;
