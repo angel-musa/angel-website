@@ -205,14 +205,14 @@ body {
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -3px;
+    margin-left: -3px; /* Center the line */
 }
 
 /* Timeline Entry */
 .timeline-entry {
     position: relative;
-    width: 45%; /* Adjust width for better spacing */
-    margin: 20px 0; /* Adjust spacing between entries */
+    width: 40%; /* Adjust width for better spacing */
+    margin: 20px 0; /* Space between entries */
     padding: 20px;
     border: 1px solid #ccc; /* Optional: Add a border */
     border-radius: 8px; /* Optional: Add rounded corners */
@@ -227,7 +227,7 @@ body {
 
 .timeline-entry:nth-child(even) {
     left: 50%; /* Align right */
-    transform: translateX(-100%); /* Move content left by its full width */
+    transform: translateX(50%); /* Move content to the right */
 }
 
 .timeline-dot {
