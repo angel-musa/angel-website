@@ -184,6 +184,13 @@ body {
     color: #071A22; /* Dark text */
 }
 
+.timeframe {
+    font-size: 0.8em; /* Smaller font size */
+    font-style: italic; /* Italicize the text */
+    color: #555; /* Optional: Change the color for better visibility */
+}
+
+
 .timeline {
     position: relative;
     max-width: 1200px;
